@@ -1,0 +1,89 @@
+/* Product.css */
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  .product-image {
+    width: 20vw;  
+    height: 20vw;  
+  }
+  
+  .quantity-controls {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    background-color: #1BBC9B;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .current-quantity {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .buy-button {
+    margin-top: 10px;
+    background-color: #1BBC9B;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* App.css */
+  
+  .appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    margin: 100px;
+    gap: 20px; 
+    background-color: #F2F2F2;
+    position: relative;
+    margin-top: 150px; 
+  }
+  
+  .product-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Aliniază elementele la mijloc pe axa transversală */
+  justify-content: center; /* Aliniază elementele la mijloc pe axa principală */
+  padding: 10px;
+  background-color: #F2F2F2;
+  }
+  
+  @media (min-width: 1900px) {
+    .product-image {
+    width: 15vw;  
+    height: 15vw;  
+  }
+  }
+
+  
