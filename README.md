@@ -1,4 +1,6 @@
-   # Proiect IP: Modulul 2 
+## Proiect IP: Modulul 2
 
- ####   Introduceti in terminar npm install 
- ####   Pentru a porni npm start
+#### Pentru a porni proiectul, folosește comanda `npm start`.
+
+#### Pentru a instala dependențele proiectului, utilizează `npm install`.
+
