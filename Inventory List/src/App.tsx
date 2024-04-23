@@ -10,6 +10,7 @@ import CABBAGES from './components/pictures/CABBAGES.png';
 import CUCUMBERS from './components/pictures/CUCUMBERS.png';
 import TOMATOES from './components/pictures/TOMATOES.png'; 
 import HOT_PEPPERS from './components/pictures/HOT PEPPERS.png';
+import questionmark from './components/pictures/questionmark.png';
 import './App.css';
 
 const App: React.FC = () => {
@@ -29,6 +30,7 @@ const App: React.FC = () => {
     { name: ' POTATOES ', imageSrc: POTATOES, initialQuantity: 8 },
     { name: ' CUCUMBERS ', imageSrc: CUCUMBERS, initialQuantity: 8 },
     { name: ' CABBAGES ', imageSrc: CABBAGES, initialQuantity: 8 },
+    { name: '  ', imageSrc: questionmark, initialQuantity: 0 },
   ];
 
   const toggleSortDropdown = () => {

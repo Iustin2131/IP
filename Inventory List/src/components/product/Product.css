@@ -14,8 +14,8 @@
 }
   
   .product-image {
-    width: 20vw;  
-    height: 20vw; 
+    width: 10vw;  
+    height: 10vw; 
     border-radius: 50;
   }
   
@@ -38,19 +38,6 @@
     margin: 0 10px;
     font-weight: bold;
   }
-  
-  .changeTheStatus-button {
-    margin-top: 10px;
-    background-color: #1BBC9B;
-    font-weight: bold;
-    border-radius: 15px;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-  }
-  
-  /* App.css */
   
   .appContainer {
     display: flex;
@@ -82,11 +69,36 @@
     background-color: #F2F2F2;
     border-radius: 15%;
   }
+
+  .buy-button {
+    margin-top: 10px;
+    background-color: #1BBC9B;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
   
-  @media (min-width: 1900px) {
+  @media (max-width: 1100px) {
     .product-image {
-    width: 15vw;  
-    height: 15vw;  
+    width: 13vw;  
+    height: 13vw;  
+  }
+  .product-name {
+    font-size: 1vw; 
+  }
+  }
+
+  @media (max-width: 750px) {
+    .product-image {
+    width: 14vw;  
+    height: 14vw;  
+  }
+
+  .buy-button {
+    padding: 3px 10px;
   }
   }
 
