@@ -37,9 +37,9 @@ const Product: React.FC<ProductProps> = ({ name, imageSrc, initialQuantity }) =>
         <div className="quantity-controls">
           <button className="quantity-button" onClick={decreaseQuantity}>-</button>
           <span className="current-quantity">{quantity}</span>
-          <button className="quantity-button" onClick={increaseQuantity}>+</button>
+          <button className="quantity-button"><span className="plus-symbol">+</span></button>
         </div>
-        <button className="buy-button" onClick={buyProduct}>Buy</button>
+        <button className="changeTheStatus-button" onClick={buyProduct}>Change the Status</button>
       </div>
     </div>
   );

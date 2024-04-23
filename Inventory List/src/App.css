@@ -126,8 +126,7 @@ p {
 
 .tagButton,
 .sortButton,
-.restockSuggestions,
-.getEfficientShoppingRoutes {
+.restockSuggestions {
   color: #000000;
   background-color: burlywood;
   padding: 8px 12px;
@@ -144,18 +143,13 @@ p {
   margin-left: 2vw;
 }
 
-.restockSuggestions,
-.getEfficientShoppingRoutes {
+.restockSuggestions {
   width: 250px;  
 }
 
 .sortButton {
   width: 125px;  
   margin-left: -5vw; 
-}
-
-.getEfficientShoppingRoutes{
-  margin-right: 2vw;
 }
 
 .App {
@@ -166,7 +160,7 @@ p {
   position: relative;  
 }
 
-.shopping-list {
+.inventory-list {
   position: absolute;;  
   top: 9%;  
   left: 50%; 
@@ -298,8 +292,7 @@ p {
 
 .tagButton,
 .sortButton,
-.restockSuggestions,
-.getEfficientShoppingRoutes {
+.restockSuggestions {
   color: #ffffff;
   background-color: #1BBC9B;
   padding: 8px 12px;
@@ -316,18 +309,13 @@ p {
   margin-left: 2vw;
 }
 
-.restockSuggestions,
-.getEfficientShoppingRoutes {
+.restockSuggestions {
   width: 250px;  
 }
 
 .sortButton {
   width: 125px; 
   margin-left: -5vw;  
-}
-
-.getEfficientShoppingRoutes{
-  margin-right: 2vw;
 }
 
 .dropdowntag {
@@ -398,7 +386,7 @@ p {
     margin-top: 25vw;
   } 
 
-  .shopping-list {
+  .inventory-list {
     top: 10%;
   }
 
@@ -458,21 +446,20 @@ p {
 }
 
 @media (max-width: 800px) {
-  .restockSuggestions,
-  .getEfficientShoppingRoutes {
+  .restockSuggestions {
     width: 30vw;  
     font-size: 1.8vw; 
   }
 }
 
   @media (max-width: 750px) {
-    .shopping-list {
+    .inventory-list {
       top: 9%; 
       }
     }
   
     @media (min-width: 727px) {
-      .shopping-list {
+      .inventory-list {
         top: 9%; 
         }
       }
@@ -482,7 +469,7 @@ p {
       margin-top: -7vw;
     } 
 
-    .shopping-list {
+    .inventory-list {
       top: 5.5%; 
       }
   }
@@ -500,8 +487,7 @@ p {
 
   .tagButton,
   .sortButton,
-  .restockSuggestions,
-  .getEfficientShoppingRoutes {
+  .restockSuggestions {
     margin-top: 10px; /* Adaugă un spațiu între butoane */
     width: calc(100% - 20px); /* Umple lățimea containerului pe ecranele mai mici cu un spațiu de 10px între butoane */
     margin-left: 10px;
@@ -525,7 +511,7 @@ p {
 }
 
 @media (max-width: 450px) {
-  .shopping-list {
+  .inventory-list {
     top: 5%; 
     }
 

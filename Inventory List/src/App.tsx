@@ -45,7 +45,7 @@ const App: React.FC = () => {
       <img className="overlay" src={image_2} alt="Overlay" />
       <img className="vector" src={image_3} alt="Vector" />
       
-      <div className="shopping-list">Shopping List</div>
+      <div className="inventory-list">Inventory List</div>
      
       <div className="buttonContainer">
         <button onClick={toggleTagDropdown} className="tagButton">Tag</button>
@@ -66,7 +66,6 @@ const App: React.FC = () => {
         )}
         <div className="nav-links"></div>
         <button className="restockSuggestions">Restock Suggestions</button>
-        <button className="getEfficientShoppingRoutes">Get Efficient Shopping Routes</button>
       </div>
 
       <div className="product-list">
